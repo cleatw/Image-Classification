@@ -4,8 +4,10 @@ ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 
 ## STAKEHOLDER AND BUSINESS UNDERSTANDING 
 
+For me, checkout at a grocery store is always the biggest hassle of going. Will I remember any of the codes for the produce I commonly buy? I have been tasked by a local green grocer to implement an image classification application to identify and predict what produce is being scanned to increase efficiency and customer turnaround.
 
 ## DATA  &  DATA ANALYSIS
+
 I utilized data sourced from the Fruits 360 datset on Kaggle (linked above). This contained over 65,000 images of fruits and vegetables in 131 different classes for identification. Because the data was pre split, I decided to use Keras' own preprocessing techniques to do a split of my own on their training folder. 
 ## MODELING
 For all of my models included I used the 'Sequential' model from Keras. This allowed me to create and weave custom layers into my own Convoluted Neural Network to train the image set with.
@@ -17,12 +19,15 @@ My baseline model actually performed very well! I only put in the bare minimum r
 
 
 ### ITERATING
+
 ![Advanced Model](figures/adv.png)
+
 During the modeling process I decided to try and change some of my parameters to see how it impacted performance. Normall when you shrink a window for the network it improves accuracy. In my case however, it tanked both accuracy and loss. Because of this reason I set my windows back to 4, 4 after running this.
 
 ### FINAL
-![Final Model](figures/final.png)
 
+![Final Model](figures/final.png)
+Thanks to a combination of previous techniques and a metric ton of patience, I was able to achieve 99% accuracy for predictions with my model! All of this after only 3 epochs used as well!
 
 ![Loss Analysis](figures/loss.png)
 Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs to increase performance (at the cost of computational time).
@@ -38,6 +43,7 @@ Given a specific stakeholder, I could tailor a dataset to only have produce that
 ## File Structure
 ```
 .
+├── figures/         <- Folder containing the pictures for this readme
 ├── .gitignore       <- Standard gitignore
 ├── FINAL_NB.ipynb   <- Finalized jupyter notebook for submission
 ├── README.md        <- This file!
