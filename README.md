@@ -1,7 +1,6 @@
 # IMAGE CLASSIFICATION ON PRODUCE
 
-![Ovation Logo](Figures/178b9290b3d3016ae511d862d0620987.png)
-
+ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 
 ## STAKEHOLDER AND BUSINESS UNDERSTANDING 
 
