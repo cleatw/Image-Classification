@@ -45,7 +45,6 @@ Looking forward, we would like to incorporate the following into our model as we
 ## File Structure
 ```
 .
-│
 ├── .gitignore     <- Standard gitignore
 ├── FINAL_NB.ipynb <- Finalized jupyter notebook for submission
 ├── README.md      <- This file!
