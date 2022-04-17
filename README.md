@@ -17,16 +17,23 @@ My baseline model actually performed very well! I only put in the bare minimum r
 
 
 ### ITERATING
-![Advanced Model](figures/second.png)
+![Advanced Model](figures/adv.png)
+During the modeling process I decided to try and change some of my parameters to see how it impacted performance. Normall when you shrink a window for the network it improves accuracy. In my case however, it tanked both accuracy and loss. Because of this reason I set my windows back to 4, 4 after running this.
 
 ### FINAL
 ![Final Model](figures/final.png)
+
+
 ![Loss Analysis](figures/loss.png)
+Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs to increase performance (at the cost of computational time).
+
 ## CONCLUSIONS:
 
+With an accuracy of over 99%, it's hard not to recommend this model for use. It has gone above and beyond what I had hoped to achieve using Keras!
 
 ## FUTURE CONSIDERATIONS:
 
+Given a specific stakeholder, I could tailor a dataset to only have produce that their store would carry. In addition I would love to try to implement an application that can show off the models and let a user try it out for themself.
 
 ## File Structure
 ```
