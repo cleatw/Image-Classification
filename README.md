@@ -12,15 +12,16 @@ For all of my models included I used the 'Sequential' model from Keras. This all
 
 ### BASELINE
 
+![Baseline Model](figures/base.png)
 My baseline model actually performed very well! I only put in the bare minimum required for it to be properly run and it almost hit 93% accuracy! Not bad at all. Going forward the most obvious way to improve our model is to add complexity through layering. Keras allows us to do this very simply, it's as easy as copy and paste.
 
 
 ### ITERATING
-
+![Advanced Model](figures/second.png)
 
 ### FINAL
-
-
+![Final Model](figures/final.png)
+![Loss Analysis](figures/loss.png)
 ## CONCLUSIONS:
 
 
