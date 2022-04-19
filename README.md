@@ -56,6 +56,7 @@ Using deep learning is incredibly efficient for image classification models, and
 - Implement my model to accurately predict different fruit and vegetables and increase customer turnaround.
 - Set up scanners at the warehouse to check incoming produce for mold/rot.
 - Set up a custom list of produce to create a more personalized classification system.
+- Create a system to keep up with new/removed inventory items.
 
 
 ## File Structure
