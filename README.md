@@ -14,7 +14,7 @@
 
 ## <a name="1">STAKEHOLDER AND BUSINESS UNDERSTANDING</a>
 
-For me, checkout at a grocery store is always the biggest hassle of going. Will I remember any of the codes for the produce I commonly buy? I have been tasked by a local green grocer to implement an image classification application to identify and predict what produce is being scanned to increase efficiency and customer turnaround.
+Having reliable access to fresh produce is one of the most important selling points for grocery stores.  I have been tasked by a local green grocer who has been recently impacted by increased traffic and a switch of shipment providers. My goals are to implement a system that can quickly and accurately identify produce. This will increase both the quality of produce being shipped in, as well as potentially speeding up the self-checkout experience, which will in turn increase customer turnaround during busy hours.
 
 ## <a name="2">DATA  &  DATA ANALYSIS</a>
 
