@@ -12,7 +12,7 @@
 
 ## <a name="1">STAKEHOLDER AND BUSINESS UNDERSTANDING</a>
 
-Having reliable access to fresh produce is one of the most important selling points for grocery stores.  I have been tasked by a local green grocer who has been recently impacted by increased traffic and a switch of shipment providers. My goals are to implement a system that can quickly and accurately identify produce. This will increase both the quality of produce being shipped in, as well as potentially speeding up the self-checkout experience, which will in turn increase customer turnaround during busy hours.
+Having reliable access to fresh produce is one of the most important selling points for grocery stores.  I have been tasked by a local green grocer, Four Courners Marketplace, who has been recently impacted by increased traffic and a switch of shipment providers. My goals are to implement a system that can quickly and accurately identify produce. This will increase both the quality of produce being shipped in, as well as potentially speeding up the self-checkout experience, which will in turn increase customer turnaround during busy hours.
 
 ## <a name="2">DATA  &  DATA ANALYSIS</a>
 
