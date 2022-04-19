@@ -4,10 +4,13 @@
 
 ## Table of Contents
 1. [Business Understanding](#1)
-2. [Example2](#2)
-3. [Third Example](#3)
-4. [Fourth Example](#4)
-ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
+2. [Data Analysis](#2)
+3. [Modeling](#3)
+4. [Recommendations](#4)
+5. [Moving Forward](#5)
+
+
+### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 
 ## <a name="1">STAKEHOLDER AND BUSINESS UNDERSTANDING</a>
 
