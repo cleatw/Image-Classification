@@ -6,8 +6,8 @@
 1. [Business Understanding](#1)
 2. [Data Analysis](#2)
 3. [Modeling](#3)
-4. [Recommendations](#4)
-5. [Moving Forward](#5)
+4. [Conclusions](#4)
+5. [Recommendations](#5)
 
 
 ### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
@@ -45,9 +45,9 @@ Taking a look at our loss, we can see that the intersect happens right around wh
 
 ## <a name="4">CONCLUSIONS:</a>
 
-With an accuracy of over 99%, it's hard not to recommend this model for use. It has gone above and beyond what I had hoped to achieve using Keras!
+Using deep learning is incredibly efficient for image classification models, and far easier to control than I thought as well. The most important thing I can conclude about Tensorflow and classifications using neural networks is: Size matters. The model can only be as trained as there are instances to train on! With access to data becoming more and more publicly available, it's never been easier.
 
-## <a name="5">FUTURE CONSIDERATIONS:</a>
+## <a name="5">RECOMMENDATIONS:</a>
 
 - Implement my model to accurately predict different fruit and vegetables and increase customer turnaround.
 - Set up scanners at the warehouse to check incoming produce for mold/rot.
