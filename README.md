@@ -49,7 +49,9 @@ With an accuracy of over 99%, it's hard not to recommend this model for use. It 
 
 ## <a name="5">FUTURE CONSIDERATIONS:</a>
 
-Given any specific stakeholder, I could tailor a dataset to only have produce that their store would carry. In addition I would love to try to implement an application that can show off the models and let a user try it out for themself.
+- Implement my model to accurately predict different fruit and vegetables and increase customer turnaround.
+- Set up scanners at the warehouse to check incoming produce for mold/rot.
+- Set up a custom list of produce to create a more personalized classification system.
 
 ## File Structure
 ```
