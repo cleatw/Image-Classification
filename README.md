@@ -51,7 +51,7 @@ Using deep learning is incredibly efficient for image classification models, and
 - Set up scanners at the warehouse to check incoming produce for mold/rot.
 - Set up a custom list of produce to create a more personalized classification system.
 
-#### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
+
 ## File Structure
 ```
 .
@@ -62,3 +62,4 @@ Using deep learning is incredibly efficient for image classification models, and
 ├── presentation.pdf <- PDF of my powerpoint slides
 └── web_app.ipynb    <- Notebook containing code for a web application
 ```
+#### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
