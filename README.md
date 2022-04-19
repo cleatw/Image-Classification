@@ -45,7 +45,7 @@ Thanks to a combination of previous techniques and a metric ton of patience, I w
 
 ![Loss Analysis](figures/loss.png)
 
-Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs to increase performance (at the cost of computational time).
+Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs; we have achieved maximum performance.
 
 ## <a name="4">CONCLUSIONS:</a>
 
