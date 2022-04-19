@@ -2,16 +2,22 @@
 
 ![Banner](figures/banner.png)
 
+## Table of Contents
+1. [Business Understanding](#1)
+2. [Example2](#2)
+3. [Third Example](#3)
+4. [Fourth Example](#4)
 ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 
-## STAKEHOLDER AND BUSINESS UNDERSTANDING 
+## <a name="1">STAKEHOLDER AND BUSINESS UNDERSTANDING</a>
 
 For me, checkout at a grocery store is always the biggest hassle of going. Will I remember any of the codes for the produce I commonly buy? I have been tasked by a local green grocer to implement an image classification application to identify and predict what produce is being scanned to increase efficiency and customer turnaround.
 
-## DATA  &  DATA ANALYSIS
+## <a name="2">DATA  &  DATA ANALYSIS</a>
 
 I utilized data sourced from the Fruits 360 datset on Kaggle (linked above). This contained over 65,000 images of fruits and vegetables in 131 different classes for identification. Because the data was pre split, I decided to use Keras' own preprocessing techniques to do a split of my own on their training folder. 
-## MODELING
+
+## <a name="3">MODELING</a>
 For all of my models included I used the 'Sequential' model from Keras. This allowed me to create and weave custom layers into my own Convoluted Neural Network to train the image set with.
 
 ### BASELINE
@@ -34,11 +40,11 @@ Thanks to a combination of previous techniques and a metric ton of patience, I w
 ![Loss Analysis](figures/loss.png)
 Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs to increase performance (at the cost of computational time).
 
-## CONCLUSIONS:
+## <a name="4">CONCLUSIONS:</a>
 
 With an accuracy of over 99%, it's hard not to recommend this model for use. It has gone above and beyond what I had hoped to achieve using Keras!
 
-## FUTURE CONSIDERATIONS:
+## <a name="5">FUTURE CONSIDERATIONS:</a>
 
 Given any specific stakeholder, I could tailor a dataset to only have produce that their store would carry. In addition I would love to try to implement an application that can show off the models and let a user try it out for themself.
 
