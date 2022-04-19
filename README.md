@@ -16,14 +16,18 @@ Having reliable access to fresh produce is one of the most important selling poi
 
 ## <a name="2">DATA  &  DATA ANALYSIS</a>
 
-I utilized data sourced from the Fruits 360 datset on Kaggle (linked above). This contained over 65,000 images of fruits and vegetables in 131 different classes for identification. Because the data was pre split, I decided to use Keras' own preprocessing techniques to do a split of my own on their training folder. 
+I utilized data sourced from the Fruits 360 datset on Kaggle (linked at the bottom of this document). This contained over 65,000 images of fruits and vegetables in 131 different classes for identification. Because the data was pre split, I decided to use Keras' own preprocessing techniques to do a split of my own on their training folder. Preparing the images required me to convert them into Arrays of numbers that Tensorflow can then interpret and make predictions based off of. I was able to then convert them back into images and print them out to show they were successfully loaded.
+
+![Examples of Produce](figures/examples.png)
 
 ## <a name="3">MODELING</a>
+
 For all of my models included I used the 'Sequential' model from Keras. This allowed me to create and weave custom layers into my own Convoluted Neural Network to train the image set with.
 
 ### BASELINE
 
 ![Baseline Model](figures/base.png)
+
 My baseline model actually performed very well! I only put in the bare minimum required for it to be properly run and it almost hit 93% accuracy! Not bad at all. Going forward the most obvious way to improve our model is to add complexity through layering. Keras allows us to do this very simply, it's as easy as copy and paste.
 
 
@@ -36,9 +40,11 @@ During the modeling process I decided to try and change some of my parameters to
 ### FINAL
 
 ![Final Model](figures/final.png)
+
 Thanks to a combination of previous techniques and a metric ton of patience, I was able to achieve 99% accuracy for predictions with my model! All of this after only 3 epochs used as well!
 
 ![Loss Analysis](figures/loss.png)
+
 Taking a look at our loss, we can see that the intersect happens right around when we stopped modeling. This is ideal because we don't need to run our model with any more epochs to increase performance (at the cost of computational time).
 
 ## <a name="4">CONCLUSIONS:</a>
