@@ -1,5 +1,7 @@
 # IMAGE CLASSIFICATION ON PRODUCE
 
+![Banner](figures/banner.png)
+
 ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 
 ## STAKEHOLDER AND BUSINESS UNDERSTANDING 
