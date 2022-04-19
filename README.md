@@ -38,7 +38,7 @@ With an accuracy of over 99%, it's hard not to recommend this model for use. It 
 
 ## FUTURE CONSIDERATIONS:
 
-Given a specific stakeholder, I could tailor a dataset to only have produce that their store would carry. In addition I would love to try to implement an application that can show off the models and let a user try it out for themself.
+Given any specific stakeholder, I could tailor a dataset to only have produce that their store would carry. In addition I would love to try to implement an application that can show off the models and let a user try it out for themself.
 
 ## File Structure
 ```
