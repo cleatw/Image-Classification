@@ -10,8 +10,6 @@
 5. [Recommendations](#5)
 
 
-### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
-
 ## <a name="1">STAKEHOLDER AND BUSINESS UNDERSTANDING</a>
 
 Having reliable access to fresh produce is one of the most important selling points for grocery stores.  I have been tasked by a local green grocer who has been recently impacted by increased traffic and a switch of shipment providers. My goals are to implement a system that can quickly and accurately identify produce. This will increase both the quality of produce being shipped in, as well as potentially speeding up the self-checkout experience, which will in turn increase customer turnaround during busy hours.
@@ -53,6 +51,7 @@ Using deep learning is incredibly efficient for image classification models, and
 - Set up scanners at the warehouse to check incoming produce for mold/rot.
 - Set up a custom list of produce to create a more personalized classification system.
 
+#### ALL DATA SOURCED FROM: https://www.kaggle.com/datasets/moltean/fruits
 ## File Structure
 ```
 .
